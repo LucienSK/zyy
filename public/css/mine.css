@@ -1,0 +1,28 @@
+.myinfo {
+  width: 100%;
+  padding: 20px 0;
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.myinfo img {
+  height: 70px;
+}
+.mytabbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #ffffff;
+}
+.mytabbar a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+  padding: 10px 0px;
+  color: #666666;
+}

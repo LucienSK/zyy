@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-size: 100%;
+  background-color: #f9f8f8;
+  margin-bottom: 80px;
+}
+header {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  position: relative;
+  border-bottom: 1px solid #b2b2b2;
+}
+.backhost {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  z-index: 10;
+}
+.backhost img {
+  height: 50px;
+}
+header p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-weight: bolder;
+}
+.qrscan {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 50px;
+  z-index: 10;
+}
+.qrscan img {
+  height: 36px;
+  padding: 7px;
+}
+.footer {
+  position: fixed;
+  height: 53px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}

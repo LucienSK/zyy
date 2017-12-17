@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 100%;
+  background-image: url("/images/login/login@3x.png");
+  background-size: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1.4rem;
+  color: #987424; 
+  margin-left: -20px;
+  margin-top: 85%;
+}
+.regs {
+  margin: 30px 50px;
+  background-color: #987424;
+}
+.logins {
+  margin: 50px;
+  border: 1px solid #987424;
+  color: #987424; 
+}

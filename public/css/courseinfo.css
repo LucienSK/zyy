@@ -1,0 +1,42 @@
+.courseinfolist {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.courseinfolist img {
+	width: 100%;
+}
+.courseinfolist a {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	color: #999999;
+	font-size: .8rem;
+}
+.courseinfolist .weui-flex__item {
+	background-color: #fffefb;
+	margin-right: 5px;
+	margin-bottom: 3px;
+}
+.weui-navbar {
+	width: 100%;
+	border-bottom: 1px solid #efefef;
+}
+.weui-navbar .weui-navbar__item {
+	border: 1px solid #cfaa51;
+	color: #cfaa51;
+	padding: 0;
+	margin: 10px 0;
+}
+.weui-navbar .weui-navbar__item:first-child {
+	border-radius: 5px 0 0 5px;
+	margin-left: 15px;
+}
+.weui-navbar .weui-navbar__item:last-child {
+	border-radius: 0 5px 5px 0;
+	margin-right: 15px;
+}
+.weui-navbar .weui-bar__item_on {
+	background-color: #cfaa51;
+	color: #ffffff;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>我</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/1.1.2/weui.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/comm.css">
+  <link rel="stylesheet" type="text/css" href="/css/mine.css">
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+</head>
+<body>
+	<header>
+		<a class="backhost" href="javascript:window.history.go(-1);"><img src="/images/common/nav_btn_back@3x.png" alt=""></a>
+		<p>我</p>
+		<!-- <div class="qrscan"><img src="/images/home/home_btn_scan@3x.png"></div> -->
+	</header>
+	<div class="myinfo">
+		<img src="/images/course/kan/icon_course_kan_first_01@3x.png">
+		<p>肖晓婷</p>
+	</div>
+	<div class="mytabbar">
+		<a href="#">活动</a>
+		<a href="#">签到</a>
+		<a href="#">扫一扫</a>
+	</div>
+	<div class="weui-cells">
+        <div class="weui-cell weui-cell_access">
+            <div class="weui-cell__bd">
+                <span style="vertical-align: middle">我的信息</span>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </div>
+        <div class="weui-cell weui-cell_access">
+            <div class="weui-cell__bd">
+                <span style="vertical-align: middle">我的消息</span>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </div>
+    </div>
+    <div class="weui-cells">
+        <div class="weui-cell weui-cell_access">
+            <div class="weui-cell__bd">
+                <span style="vertical-align: middle">设置</span>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </div>
+    </div>
+	<div class="weui-tab footer">
+		<div class="weui-tab__panel">
+		</div>
+		<div class="weui-tabbar">
+			<a href="home" class="weui-tabbar__item">
+				<img src="/images/tabbar/tab_home_normal@3x.png" alt="" class="weui-tabbar__icon">
+				<p class="weui-tabbar__label">首页</p>
+			</a>
+			<a href="course" class="weui-tabbar__item">
+				<img src="/images/tabbar/tab_course_normal@3x.png" alt="" class="weui-tabbar__icon">
+				<p class="weui-tabbar__label">课程</p>
+			</a>
+			<a href="javascript:;" class="weui-tabbar__item">
+				<img src="/images/tabbar/tab_sign_normal@3x.png" alt="" class="weui-tabbar__icon">
+				<p class="weui-tabbar__label">签到</p>
+			</a>
+			<a href="javascript:;" class="weui-tabbar__item">
+				<img src="/images/tabbar/tab_activity_normal@3x.png" alt="" class="weui-tabbar__icon">
+				<p class="weui-tabbar__label">活动</p>
+			</a>
+			<a href="mine" class="weui-tabbar__item">
+				<img src="/images/tabbar/tab_me_normal@3x.png" alt="" class="weui-tabbar__icon">
+				<p class="weui-tabbar__label">我</p>
+			</a>
+		</div>
+	</div>
+	<script>
+		var banner = new Swiper('.banner');
+		var typeone = new Swiper('.typeone', {
+			slidesPerView: 3,
+			spaceBetween: 10,
+			freeMode: true
+		});
+		$('.qrscan').on('click', () => {
+			console.log('fkfshfh')
+		})
+	</script>
+</body>
+</html>
